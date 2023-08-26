@@ -53,6 +53,7 @@ nav {
 
 .nav-right button {
     width: 10.5vw;
+    font-size: 0.9vmax;
     padding: 0 0.8vw;
     border-radius: 30px;
     position: relative;
@@ -78,9 +79,10 @@ nav {
 }
 
 nav button img {
-    height: 2vw;
+    height: 3vw;
     background-color: #fff;
     border-radius: 50%;
+    rotate: -30deg;
 }
 
 #container {
@@ -103,13 +105,15 @@ nav button img {
     border-radius: 20%;
 }
 
-#container h1 .img1 {
+/* #container h1 .img1 {
     width: 100px;
     height: 130px;
-}
+} */
 
 #container h1 {
     font-size: 5vw;
+    font-weight: 650;
+
 }
 
 .container-child {
@@ -206,6 +210,10 @@ nav button img {
 .down-top .spring,
 .down-low .spring {
     padding-left: 1vw;
+}
+
+.down-low h4 {
+    margin-left: 1.5vw;
 }
 
 .h5-op {
